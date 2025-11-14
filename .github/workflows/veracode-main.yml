@@ -1,0 +1,8 @@
+name: Veracode Workflow Scan
+on:
+  push:
+  pull_request:
+
+jobs:
+  veracode_workflow:
+    uses: brandonechenique/veracode/.github/workflows/veracode.yml@main
