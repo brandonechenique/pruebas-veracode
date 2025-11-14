@@ -5,4 +5,4 @@ on:
 
 jobs:
   veracode_workflow:
-    uses: brandonechenique/veracode/.github/workflows/veracode.yml@main
+    uses: brandonechenique/veracode/.github/workflows/veracode-pipeline-scan.yml@main
